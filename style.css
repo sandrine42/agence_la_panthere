@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 70px 50px;
 }
 
 .bloc-md {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: white;
 }
 
 .d-bloc .a-btn:hover,
@@ -281,10 +281,11 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+    width: 100%;
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .navbar {
@@ -436,8 +437,8 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 10px 5px 20px 5px;
+    line-height: 1.5em;
 }
 
 .mg-lg {
@@ -476,11 +477,11 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 40px!important;
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 70px!important;
 }
 
 .sm-shadow {
@@ -677,11 +678,12 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
+    line-height: 1.5em;
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    width: 80%;
     margin: auto auto auto auto;
 }
 
@@ -700,25 +702,31 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    width: 100%;
     margin: auto auto auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 h2 {
-    font-size: 22px;
-    line-height: 1.4em;
+    font-size: 24px;
+    line-height: 1.6em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
-
+h2.text-center.white {
+    line-height: 1.5em;
+    margin: 10px 5px 30px 5px;
+}
 .med-width-whitespace {
-    max-width: 800px;
-    margin: auto auto auto auto;
+    width: 100%;
+    margin: 50px auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -754,11 +762,12 @@ h4 {
 
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    padding: 10px;
 }
 
 .bold-link {
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 600;
     text-decoration: underline!important;
 }
 
@@ -822,7 +831,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {

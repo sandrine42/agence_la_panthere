@@ -1427,7 +1427,6 @@ figure {
 }
 
 img {
-    width: 100%;
     vertical-align: middle
 }
 
@@ -7796,7 +7795,6 @@ button.close {
 
 .center-block {
     display: block;
-    width: 15%;
     margin-right: auto;
     margin-left: auto
 }

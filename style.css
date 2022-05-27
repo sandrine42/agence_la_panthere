@@ -438,7 +438,7 @@ nav .caret {
 }
 
 .mg-md {
-    margin: 10px 5px 20px 5px;
+    margin: 10px 0px 20px 0px;
     line-height: 1.5em;
     color:#FFCA9F
 }
@@ -517,8 +517,8 @@ button {
     width: 40px;
     height: 40px;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 45px;
+    right: 0px;
     opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
@@ -658,6 +658,7 @@ a {
     color: #575757;
 }
 */
+
 .container {
     max-width: 1000px;
 }
@@ -840,6 +841,23 @@ background: #fff;
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+}
+.col-sm-6 h2
+{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.col-sm-6 p
+{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 1.6em;
+}
+.col-sm-6 a
+{
+    text-decoration: underline;
 }
 
 @media (max-width: 1024px) {

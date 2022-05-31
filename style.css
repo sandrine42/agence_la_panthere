@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: black;
 }
 
 .d-bloc .panel button:hover,
@@ -803,8 +803,9 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-background: #fff;
+background: #D5DAEC;
     color: #364577!important;
+   
 }
 
 .ltc-white {
@@ -838,6 +839,7 @@ background: #fff;
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
+
 }
 
 .bg-presentation {
